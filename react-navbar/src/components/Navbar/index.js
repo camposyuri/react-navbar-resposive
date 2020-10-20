@@ -1,11 +1,22 @@
 import React from "react";
 
+import {
+  Nav,
+  NavLink,
+  Bars,
+  NavBtn,
+  NavBtnLink,
+  NavMenu,
+} from "./NavbarElements";
+
+import logo from "../../images/logo.svg";
+
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavLink to="/">
-          <h1>Logo</h1>
+          <img src={logo} alt="Logo" />
         </NavLink>
         <Bars />
         <NavMenu>
@@ -13,7 +24,7 @@ const Navbar = () => {
             About
           </NavLink>
 
-          <NavLink to="/srervices" activeStyle>
+          <NavLink to="/services" activeStyle>
             Services
           </NavLink>
 
@@ -24,6 +35,7 @@ const Navbar = () => {
           <NavLink to="/sign-up" activeStyle>
             Sign Up
           </NavLink>
+          {/* <NavBtnLink to="/signin">Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
           <NavBtnLink to="/signin">Sign In</NavBtnLink>
