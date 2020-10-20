@@ -7,7 +7,6 @@ const Home = () => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        height: "90vh",
       }}
     >
       <h1>Home</h1>

@@ -45,8 +45,8 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
 
-  width: 100vw;
-  white-space: nowrap;
+  /* width: 100vw;
+  white-space: nowrap; */
 
   /* margin-right: 24px; */
 
